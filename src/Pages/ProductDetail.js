@@ -22,10 +22,10 @@ const ProductDetail = () => {
   return (
     <div className='w-3/5 m-auto min-h-screen'>
       <div className='flex items-center my-10 space-x-10'>
-        <div className='product-img w-[500px] h-[500px]'>
+        <div className='w-[500px] h-[500px]'>
           <img className='w-full' src={product.image} alt="" />
         </div>
-        <div className='product-detail w-1/2 space-y-10'>
+        <div className='w-1/2 space-y-10'>
           <h1 className='text-4xl font-bold'>{product.title}</h1>
           <h2 className='text-2xl font-semibold'>${product.price}</h2>
           <p>{product.description}
